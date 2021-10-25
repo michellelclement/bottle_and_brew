@@ -35,9 +35,15 @@ p {
   height: 5vh;
 }
 
+.nav-container,
+.footer-container {
+  padding: 0 30px;
+}
+
 .brand {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
+  padding: 10px 0;
 }
 
 .footer {
