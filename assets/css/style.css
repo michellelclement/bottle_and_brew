@@ -67,7 +67,7 @@ p {
   height: 85vh;
 }
 
-/* About Page */
+/* About / Content / Add Venue Pages */
 
 .about-container{
   background: rgb(88,86,214);
@@ -75,6 +75,23 @@ p {
   border-radius: 16px 16px 0px 0px;
   box-shadow: 0px -4px 8px -4px rgba(0, 0, 0, 0.1);
 }
+
+.content-row {
+  margin: 5px 0;
+  padding: 100px 0;
+}
+
+
+.content-title {
+  padding: 40px 0;
+}
+
+.content-subtitle {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+
 
 
 /* Media Queries */
