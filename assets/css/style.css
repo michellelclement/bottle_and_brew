@@ -14,16 +14,23 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: 0.36px;
   font-weight: bold;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
 p {
   letter-spacing: 0.38px;
   line-height: 24px;
   font-size: 20px;
   text-align: center;
 }
+
+
 
 /* Navigation and footer Styling */
 
@@ -70,6 +77,8 @@ p {
 .about-container{
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
+  border-radius: 16px 16px 0px 0px;
+  box-shadow: 0px -4px 8px -4px rgba(0, 0, 0, 0.1);
 }
 
 
