@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #ffffff;
+  text-align: left;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -38,7 +42,7 @@ p {
 
 .nav-container,
 .footer-container {
-  padding: 0 30px;
+  padding: 0 0px;
 }
 
 .brand {
@@ -60,20 +64,26 @@ p {
   height: 10vh;
 }
 
-/* Button Styling */
+/* Button Section Styling */
 
 .button-container {
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
   border-radius: 0px 0px 16px 16px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
 .button-row {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
+
+.button-col {
+  text-align: center;
+}
+
+/* Button Styling */
 
 .main-button {
   color: #ffffff;
@@ -93,12 +103,16 @@ p {
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
   border-radius: 16px 16px 0px 0px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .content-row {
   padding-top: 100px;
   padding-bottom: 10px;
+}
+
+.image-col {
+  text-align: center;
 }
 
 .content-image {
