@@ -90,6 +90,17 @@ p {
   border-color: #ffffff;
 }
 
+.main-button:hover {
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+.main-button:focus {
+  color: rgb(88,86,214);
+  border-color:rgb(88,86,214);
+  background-color: #ffffff;
+}
 
 /* Map Styling */
 
