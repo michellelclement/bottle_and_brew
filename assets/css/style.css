@@ -81,6 +81,10 @@ p {
   padding: 100px 0;
 }
 
+.content-image img {
+  width: 25%;
+  border-radius: 8px;
+}
 
 .content-title {
   padding: 40px 0;
