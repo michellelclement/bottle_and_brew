@@ -81,8 +81,8 @@ p {
   padding: 100px 0;
 }
 
-.content-image img {
-  width: 25%;
+.content-image {
+  width: 60%;
   border-radius: 8px;
 }
 
