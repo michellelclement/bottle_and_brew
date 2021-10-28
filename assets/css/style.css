@@ -61,6 +61,23 @@ p {
   height: 10vh;
 }
 
+/* Button Styling */
+
+.button-container {
+  background: rgb(88,86,214);
+  background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
+  border-radius: 0px 0px 16px 16px;
+}
+
+.button-row {
+  padding: 25px 0;
+}
+
+.main-button {
+
+}
+
+
 /* Map Styling */
 
 .map-container {
@@ -73,12 +90,11 @@ p {
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
   border-radius: 16px 16px 0px 0px;
-  box-shadow: 0px -4px 8px -4px rgba(0, 0, 0, 0.1);
 }
 
 .content-row {
-  margin: 5px 0;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 .content-image {
