@@ -165,4 +165,9 @@ p {
   .content-row {
     padding: 75px 0px;
   }
+
+  .content-image {
+    width: 75%;
+    border-radius: 8px;
+  }
 }
