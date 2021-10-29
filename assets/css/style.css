@@ -118,16 +118,21 @@ p {
   background-color: #ffffff;
 }
 
-/* Map Styling */
+/* Page Styling */
 
-.map-container {
+.page-main-container {
   flex: 1 0 auto;
+}
+
+/* Map Styling */
+.map-container {
   height: 87vh;
 }
 
 /* About / Content / Add Venue Pages */
 
-.about-container{
+.about-container,
+.add-venue-container {
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
   border-radius: 16px 16px 0px 0px;
