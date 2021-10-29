@@ -153,18 +153,29 @@ p {
 }
 
 .content-row {
-  margin: 5px 20px;
+  margin: 0px 20px;
   padding: 75px 40px;
 }
 
 
  }
 
+ @media (max-width: 767.98px) { 
+   .button-row {
+     padding-top: 0;
+   }
+
+   .content-row {
+    margin: 0px 20px;
+    padding: 50px 0px;
+  }
+
+  }
+
+
  @media (max-width: 575.98px) {
   
-  .content-row {
-    padding: 75px 0px;
-  }
+
 
   .content-image {
     width: 75%;
