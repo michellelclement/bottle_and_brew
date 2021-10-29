@@ -55,6 +55,12 @@ p {
   border: none;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 .footer {
   background: rgb(88,86,214);
