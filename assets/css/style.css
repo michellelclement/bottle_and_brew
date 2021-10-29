@@ -88,6 +88,7 @@ p {
 .main-button {
   color: #ffffff;
   border-color: #ffffff;
+  margin: 5px;
 }
 
 .main-button:hover {
@@ -143,8 +144,6 @@ p {
 
 /* Media Queries */
 
-
-
 @media (max-width: 991.98px) { 
 
 .content-p {
@@ -172,11 +171,8 @@ p {
 
   }
 
-
  @media (max-width: 575.98px) {
   
-
-
   .content-image {
     width: 75%;
     border-radius: 8px;
