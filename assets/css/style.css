@@ -147,7 +147,12 @@ p {
 }
 
 .map-row {
-  height: 85vh;
+  height: 95vh;
+  padding-top: 20px;
+}
+
+.map-col {
+  padding-right: 0px;
 }
 
 /* About / Contact / Add Venue Pages */
@@ -198,7 +203,7 @@ p {
 
 /* Media Queries */
 
-@media (max-width: 991.98px) { 
+@media (max-width: 992px) { 
 
 .content-p {
   font-size: 18px;
@@ -213,7 +218,7 @@ p {
 
  }
 
- @media (max-width: 767.98px) { 
+ @media (max-width: 768px) { 
    .button-row {
      padding-top: 0;
    }
@@ -225,10 +230,14 @@ p {
 
   }
 
- @media (max-width: 575.98px) {
+ @media (max-width: 600px) {
   
   .content-image {
     width: 75%;
     border-radius: 8px;
+  }
+
+  .map-col {
+    padding: 0px;
   }
 }
