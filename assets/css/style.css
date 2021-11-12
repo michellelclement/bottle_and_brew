@@ -146,6 +146,10 @@ p {
   height: 87vh;
 }
 
+.map-row {
+  height: 85vh;
+}
+
 /* About / Contact / Add Venue Pages */
 
 .about-container,
