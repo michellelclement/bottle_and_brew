@@ -118,6 +118,24 @@ p {
   background-color: #ffffff;
 }
 
+.solid-button {
+  color: rgb(88,86,214);
+  border-color:rgb(88,86,214);
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.solid-button:hover {
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+.solid-button:focus {
+  color: #ffffff;
+  border-color: #ffffff;
+  margin: 5px;
+}
 /* Page Styling */
 
 .page-main-container {
@@ -129,7 +147,7 @@ p {
   height: 87vh;
 }
 
-/* About / Content / Add Venue Pages */
+/* About / Contact / Add Venue Pages */
 
 .about-container,
 .add-venue-container {
@@ -162,6 +180,14 @@ p {
   padding-bottom: 10px;
 }
 
+.form-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-contact-info {
+  padding-top: 50px;
+  padding-bottom: 10px;;
+}
 
 /* Media Queries */
 
