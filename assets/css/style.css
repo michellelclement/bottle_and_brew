@@ -143,7 +143,9 @@ p {
 
 /* Map Styling */
 .map-container {
-  height: 87vh;
+  height: 70vh;
+  position: relative;
+  top: 60px; 
 }
 
 .map-row {
@@ -151,9 +153,7 @@ p {
   padding-top: 20px;
 }
 
-.map-col {
-  padding-right: 0px;
-}
+
 
 /* About / Contact / Add Venue Pages */
 
