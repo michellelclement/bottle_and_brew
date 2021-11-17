@@ -53,31 +53,32 @@ We update the site regularly, once a week at the very minimum, so please bare wi
           </div>
 
             <div class="col-lg-6 offset-lg-3 col-md-12">
-                <form>
+                <form method="post">
                   <!-- Venue Name -->
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Venue Name</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <label for="venueName" class="form-label">Venue Name</label>
+                    <input type="text" class="form-control" id="venueName" required>
                   </div>
 
                   <!-- Venue Address -->
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Venue Address</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <label for="venueAddress" class="form-label">Venue Address</label>
+                    <input type="text" class="form-control" id="venueAddress" required>
                   </div>
 
                   <!-- Website -->
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Venue Website</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <label for="venueWebsite" class="form-label">Venue Website</label>
+                    <input type="text" class="form-control" id="venueWebsite">
+                    <div id="venueWebsiteHelp" class="form-text">If the venue does not have an address, a link to a social media page is also ok.</div>
                   </div>
 
                   <!-- Location of Baby Change in Venue -->
 
                   <!-- Any other comments -->
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Baby Change Comments</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Baby change facilities can be found in...</textarea>
+                    <label for="venueComments" class="form-label">Baby Change Comments</label>
+                    <textarea class="form-control" id="venueComments" rows="3">E.g: Baby change facilities can be found in the unisx disabled toilet...</textarea>
                   </div>
 
                   <!-- Name & Email Address -->
@@ -86,13 +87,13 @@ We update the site regularly, once a week at the very minimum, so please bare wi
                   </div>
 
                     <div class="mb-3">
-                      <label for="exampleFormControlTextarea1" class="form-label">Name</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name">
                     </div>
 
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
                       <div id="emailHelp" class="form-text">We will not publish your name or email, nor will we share it with anyone else.</div>
                     </div>
 
