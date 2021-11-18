@@ -68,7 +68,7 @@ p {
     box-shadow: none;
 }
 
-.footer {
+ .footer {
   flex-shrink: 0;
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
@@ -77,6 +77,25 @@ p {
   height: 5vh;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.mobile-footer {
+  flex-shrink: 0;
+  background: rgb(88,86,214);
+  background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
+  border-radius: 16px 16px 0px 0px;
+  box-shadow: 0px -4px 8px -4px rgba(0, 0, 0, 0.1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.mobile-footer-cols h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mobile-footer-row {
+  text-align: center;
 }
 
 .footer-container p {
