@@ -53,7 +53,7 @@ We update the site regularly, once a week at the very minimum, so please bare wi
           </div>
 
             <div class="col-lg-6 offset-lg-3 col-md-12">
-                <form method="post">
+                <form onsubmit="return sendForm(this);">
                   <!-- Venue Name -->
                   <div class="mb-3">
                     <label for="venueName" class="form-label">Venue Name</label>
@@ -87,13 +87,13 @@ We update the site regularly, once a week at the very minimum, so please bare wi
                   </div>
 
                     <div class="mb-3">
-                      <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name">
+                      <label for="addVenueContactName" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="addVenueContactName">
                     </div>
 
                     <div class="mb-3">
-                      <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      <label for="addVenueEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="addVenueEmail" placeholder="name@example.com">
                       <div id="emailHelp" class="form-text">We will not publish your name or email, nor will we share it with anyone else.</div>
                     </div>
 
@@ -123,8 +123,15 @@ We update the site regularly, once a week at the very minimum, so please bare wi
   </div>
 </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Email Script -->
+    <script src="assets/js/sendForm.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_I7UTAP2c2M88Q5JjCBd64");
+   })();
+</script>
 
 </body>
 </html>

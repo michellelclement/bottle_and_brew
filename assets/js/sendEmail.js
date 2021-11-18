@@ -5,7 +5,7 @@ function sendMail(contactForm) {
         from_email: contactForm.contactEmail.value,
         message: contactForm.message.value,
       })
-      .then(alert("Thank you! You email has been sent"));
+      .then(alert("Thank you! Your message has been sent. We will get back to you as soon as we can."));
   
     $("#contact-form").text();
   }
