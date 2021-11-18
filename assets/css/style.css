@@ -135,6 +135,8 @@ p {
   border-color: #ffffff;
   margin: 5px;
 }
+
+
 /* Page Styling */
 
 .page-main-container {
@@ -152,7 +154,6 @@ p {
   height: 95vh;
   padding-top: 20px;
 }
-
 
 
 /* About / Contact / Add Venue Pages */
@@ -199,6 +200,10 @@ p {
 .form-contact-info {
   padding-top: 50px;
   padding-bottom: 10px;;
+}
+
+#venueComments {
+  color: grey;
 }
 
 /* Media Queries */
