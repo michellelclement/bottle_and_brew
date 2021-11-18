@@ -79,6 +79,9 @@ p {
   padding-bottom: 0.5rem;
 }
 
+.footer-container p {
+  font-size: 12px;
+}
 /* Button Section Styling */
 
 .button-container {
