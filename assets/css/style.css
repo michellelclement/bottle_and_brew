@@ -89,9 +89,20 @@ p {
   padding-bottom: 0.5rem;
 }
 
+.mobile-footer-cols {
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
 .mobile-footer-cols h2 {
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.mobile-footer-cols p {
+  margin: 0;
 }
 
 .mobile-footer-row {
