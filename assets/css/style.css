@@ -39,15 +39,22 @@ p {
 
 /* Navigation and footer Styling */
 
+
 .navbar {
   background: rgb(88,86,214);
   background: linear-gradient(90deg, rgba(88,86,214,1) 0%, rgba(130,129,236,1) 100%);
   border-radius: 0px 0px 16px 16px ;
   box-shadow: 0px -4px 8px -4px rgba(0, 0, 0, 0.1);
+  padding-top: 0px;
+  align-items: flex-end;
+}
+
+.navbar>.container-fluid {
+  align-items:flex-end;
 }
 
 .nav-container,
-.footer-container {
+.footer-container  {
   padding: 0 1.5em;
 }
 
