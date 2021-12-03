@@ -304,4 +304,20 @@ iframe {
     padding-top: 10px;
   }
 
+  .footer {
+    padding-top: 0.5rem;
+    }
+
+  .footer-cols h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  
+  .footer-cols p {
+    font-size: 8px;
+  }
+
+
 }
