@@ -276,6 +276,16 @@ iframe {
     height: 25px;
   }
 
+  #navbarNavDropdown {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-item {
+    font-size: 21px;
+    padding-top: 10px;;
+  }
+
   .content-image {
     width: 75%;
     border-radius: 8px;
@@ -284,4 +294,10 @@ iframe {
   .map-col {
     padding: 0px;
   }
+
+  .map-row {
+    height: 80vh;
+    padding-top: 15px;
+  }
+
 }
