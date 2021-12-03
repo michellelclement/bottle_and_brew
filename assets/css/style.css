@@ -182,7 +182,7 @@ p {
 }
 
 .map-row {
-  height: 95vh;
+  height: 80vh;
   padding-top: 20px;
 }
 
@@ -272,6 +272,10 @@ iframe {
 
  @media (max-width: 600px) {
   
+  .navbar-brand>img {
+    height: 25px;
+  }
+
   .content-image {
     width: 75%;
     border-radius: 8px;
