@@ -182,7 +182,7 @@ p {
 }
 
 .map-row {
-  height: 80vh;
+  height: 85vh;
   padding-top: 20px;
 }
 
@@ -295,8 +295,12 @@ iframe {
     padding: 0px;
   }
 
+  .map-container {
+    height: 90vh;
+  }
+
   .map-row {
-    height: 60vh;
+    height: 80vh;
     padding-top: 10px;
   }
 
