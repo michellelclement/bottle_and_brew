@@ -8,7 +8,7 @@ function sendForm(contactForm) {
         venue_address: contactForm.venueAddress.value,
         venue_website: contactForm.venueWebsite.value,
       })
-      .then(alert("Thank you! Your message has been sent. We will get back to you as soon as we can."));
+      .then(alert("Thank you! We will add your venue submission as soon as we can."));
   
     $("#contact-form").text();
   }
