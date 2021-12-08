@@ -236,8 +236,8 @@ iframe {
   padding-bottom: 10px;;
 }
 
-#venueComments {
-  color: grey;
+.comments-label {
+  margin-bottom: 0px;
 }
 
 /* Media Queries */
