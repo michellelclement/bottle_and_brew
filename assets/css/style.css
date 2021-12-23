@@ -110,6 +110,10 @@ p {
 .footer-container p {
   font-size: 12px;
 }
+
+#home-add-venue-button {
+  display: none;
+}
 /* Button Section Styling */
 
 .button-container {
@@ -318,5 +322,12 @@ iframe {
     font-size: 8px;
   }
 
+  #home-footer-copyright {
+    display: none;
+  }
 
+  #home-add-venue-button {
+    display: block;
+    padding-bottom: 5px;
+  }
 }
