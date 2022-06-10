@@ -304,11 +304,11 @@ iframe {
   }
 
   .map-container {
-    height: 85vh;
+   /* height: 90vh; */
   }
 
   .map-row {
-    height: 70vh;
+   /*  height: 70vh; */
     padding-top: 10px;
   }
 
