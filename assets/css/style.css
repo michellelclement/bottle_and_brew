@@ -100,7 +100,7 @@ a:hover {
 }
 
 .footer-cols h2 {
-  font-size: 16px;
+  font-size: 0.9rem;
   font-weight: 400;
   margin: 0;
   padding-bottom: 0;
@@ -116,12 +116,9 @@ a:hover {
 }
 
 .footer-container p {
-  font-size: 12px;
+  font-size: 0.6rem;
 }
 
-#home-add-venue-button {
-  display: none;
-}
 /* Button Section Styling */
 
 .button-container {
@@ -316,7 +313,7 @@ iframe {
   }
 
   .footer {
-    padding-top: 0.5rem;
+    display: none;
     }
 
   .footer-cols h2 {
